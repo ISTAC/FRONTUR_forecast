@@ -1,0 +1,15 @@
+Title: Forecast tourist movements in the border of the Canary Islands (FRONTUR) 
+Version: 0.1.0
+Authors@R: c(
+  person("Elisa Jorge González", role = c("aut","cre"), email="elisajg0@gmail.com"))
+Description: R files that forecast tourist movements in the border of the Canary Islands (FRONTUR) 
+	     employing State Space Modeles, using data from xls or xlsx and json.
+Imports:
+	readxl
+	xlsx
+	jsonlite
+	KFAS
+Collate: 
+	'main.R'
+	'forecast.R'
+	'json_data.R'
